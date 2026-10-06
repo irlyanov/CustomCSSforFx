@@ -19,6 +19,12 @@
   border-radius: var(--megabar_border_roundness) !important;
 }
 
+/* Keep result highlights square inside the rounded popup. */
+#urlbar .urlbarView-row,
+#urlbar .urlbarView-row-inner {
+  border-radius: 0 !important;
+}
+
 #urlbar[focused]:not([usertyping]) .urlbarView,
 #urlbar .search-one-offs,
 #urlbar .search-one-offs .search-panel-header,
