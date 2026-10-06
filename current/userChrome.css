@@ -219,7 +219,7 @@
    [!] good for Dark themes: buttons_on_navbar_glass_appearance.css
 */
 
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_dark.css"; /**/		
 /* @import "./css/buttons/buttons_on_navbar_aero_appearance.css"; /**/
@@ -578,7 +578,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 133+ */
+@import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 133+ */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx128-132.css"; /**/ /* for Firefox 128-132 */
 
 
@@ -920,7 +920,7 @@
    -------------------------------------------
 */
 
-/* @import "./css/generalui/searchbar_popup_current_engine_hidden.css"; /**/
+@import "./css/generalui/searchbar_popup_current_engine_hidden.css"; /**/
 
 /* -------------------------------------------
    SEARCHBAR popup - search engine settings v2
@@ -962,10 +962,10 @@
    [!] addonbar_move_bookmarks_toolbar_to_bottom_fx128-fx132.css is for Firefox 128 ESR
 */
 
-/* @import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom.css"; /**/
+@import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom.css"; /**/
 /* @import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom_fx128-fx132.css"; /**/
 /* @import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom_tabs_on_bottom_compatibility.css"; /**/
-/* @import "./css/toolbars/addonbar_status_in_addonbar.css"; /**/
+@import "./css/toolbars/addonbar_status_in_addonbar.css"; /**/
 /* @import "./css/toolbars/addonbar_fullscreen_autohide.css"; /**/
 
 
@@ -1218,7 +1218,7 @@
 
 
 /* @import "./css/locationbar/megabar_disable_openviewonfocus.css"; /**/
-/* @import "./css/locationbar/urlbar_border_roundness.css"; /**/
+@import "./css/locationbar/urlbar_border_roundness.css"; /**/
 @import "./css/locationbar/urlbar_restore_visible_border.css"; /**/
 
 /* -------------------------------------
@@ -1258,9 +1258,9 @@
    [!] only use one option at a time
 */
 
-@import "./css/locationbar/ac_popup_megabar_title_and_url_50percent_width.css"; /**/
+/* @import "./css/locationbar/ac_popup_megabar_title_and_url_50percent_width.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_url_and_title_50percent_width.css"; /**/
-/* @import "./css/locationbar/ac_popup_megabar_title_and_url_two_lines.css"; /**/
+@import "./css/locationbar/ac_popup_megabar_title_and_url_two_lines.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_url_only.css"; /**/
 
 
